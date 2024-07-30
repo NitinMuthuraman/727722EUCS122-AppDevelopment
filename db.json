@@ -1,0 +1,175 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "praga@123",
+      "name": "praga",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "email": "nitin@123",
+      "name": "nitin",
+      "password": "123",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "email": "prince@123",
+      "name": "prasanna",
+      "password": "123",
+      "role": "Admin"
+    },
+    {
+      "email": "praga@gmail.com",
+      "name": "praga",
+      "password": "456",
+      "role": "Admin",
+      "id": 4
+    },
+    {
+      "email": "nitinms@gmail.com",
+      "name": "nitinms",
+      "password": "123",
+      "role": "User",
+      "id": 5
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "title": "Sample Event",
+      "start": "2024-07-29T09:00:00",
+      "end": "2024-07-29T10:00:00",
+      "person": "nitin",
+      "type": "",
+      "reason": "",
+      "approval": "Approved"
+    },
+    {
+      "title": "",
+      "start": "2024-07-28T23:30:00.000Z",
+      "end": "2024-07-29T02:00:00.000Z",
+      "person": "praga",
+      "type": "Shift Change",
+      "reason": "",
+      "id": 2,
+      "approval": "Approved"
+    },
+    {
+      "title": "",
+      "start": "2024-07-28T23:30:00.000Z",
+      "end": "2024-07-29T02:00:00.000Z",
+      "person": "praga",
+      "type": "Time Off",
+      "reason": "",
+      "id": 3,
+      "approval": "Denied"
+    }
+  ],
+  "events": [
+    {
+      "title": "",
+      "start": "2024-07-31T07:00:00.000Z",
+      "end": "2024-07-31T09:30:00.000Z",
+      "person": "praga",
+      "id": 1
+    },
+    {
+      "title": "nitin",
+      "start": "2024-07-30T21:00:00.000Z",
+      "end": "2024-07-30T23:30:00.000Z",
+      "person": "nitin",
+      "id": 2
+    },
+    {
+      "title": "",
+      "start": "2024-08-01T02:00:00.000Z",
+      "end": "2024-08-01T04:30:00.000Z",
+      "person": "prasanna",
+      "id": 3
+    },
+    {
+      "title": "",
+      "start": "2024-08-01T21:00:00.000Z",
+      "end": "2024-08-01T23:30:00.000Z",
+      "person": "nitin",
+      "id": 4
+    },
+    {
+      "title": "",
+      "start": "2024-07-30T04:30:00.000Z",
+      "end": "2024-07-30T07:00:00.000Z",
+      "person": "praga",
+      "id": 5
+    },
+    {
+      "title": "",
+      "start": "2024-07-28T23:30:00.000Z",
+      "end": "2024-07-29T02:00:00.000Z",
+      "person": "praga",
+      "id": 6
+    },
+    {
+      "title": "",
+      "start": "2024-08-02T07:00:00.000Z",
+      "end": "2024-08-02T09:30:00.000Z",
+      "person": "prasanna",
+      "id": 7
+    },
+    {
+      "title": "",
+      "start": "2024-07-28T20:30:00.000Z",
+      "end": "2024-07-28T21:30:00.000Z",
+      "person": "prasanna",
+      "id": 9
+    },
+    {
+      "title": "",
+      "start": "2024-07-31T19:30:00.000Z",
+      "end": "2024-07-31T20:30:00.000Z",
+      "person": "praga",
+      "id": 11
+    },
+    {
+      "title": "",
+      "start": "2024-08-02T23:30:00.000Z",
+      "end": "2024-08-03T02:00:00.000Z",
+      "person": "nitin",
+      "id": 12
+    },
+    {
+      "title": "",
+      "start": "2024-07-30T04:30:00.000Z",
+      "end": "2024-07-30T07:00:00.000Z",
+      "person": "",
+      "id": 13
+    },
+    {
+      "title": "",
+      "start": "2024-07-31T04:30:00.000Z",
+      "end": "2024-07-31T07:00:00.000Z",
+      "person": "prasanna",
+      "id": 15
+    }
+  ],
+  "notices": [
+    {
+      "id": 1,
+      "message": "Welcome to the dashboard! Remember to check your tasks daily."
+    },
+    {
+      "id": 2,
+      "message": "There will be a team meeting at 3 PM tomorrow."
+    },
+    {
+      "message": "..\n\n",
+      "id": 4
+    },
+    {
+      "message": "hello\n",
+      "id": 5
+    }
+  ]
+}
